@@ -42,7 +42,7 @@ namespace SubSonic.SqlGeneration.Schema
                 case DbType.StringFixedLength:
                     return "nvarchar";
                 case DbType.Boolean:
-                    return "booleans";
+                    return "boolean";
                 case DbType.SByte:
                 case DbType.Binary:
                 case DbType.Byte:
